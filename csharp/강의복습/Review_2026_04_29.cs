@@ -4,7 +4,7 @@ class Progrom
 {
     /*
      * 1.Console.WriteLine($"이름 : {info.Name}"); 변수.하위요소로 하위요소 출력가능
-     * 2. studentInfo studentA = new studentInfo("곽기원", 2000, -0.1f); 사용자 정의 자료형
+     * 2. studentInfo studentA = new studentInfo("곽기원", 2000, -0.1f); 사용자 정의 자료형 ;사용자정의 데이터형식
      * 2.1 사용자 정의 자료형은 여러 데이터를 하나로 묶는 타입을 의미한다. 위에서는 studentInfor가 이에 해당한다.
      * 3. struct 는 데이터(필드) + 그 데이터를 다루는 규칙(생성자, 메서드)을 묶은 타입
      * 3.1 (데이터(필드) + 생성자 + 동작(메서드 등) 을 담을 수 있는 타입이다)- 동적인 부분은 나중에 배울꺼 같다.
