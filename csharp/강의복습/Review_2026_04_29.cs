@@ -19,6 +19,8 @@ class Progrom
      * class 타입 밑에 같은 내부에서는 public이 없어도 접근이 가능한 걸로 알고 있는데 해당 코드는 public을 안붙이면 실행이 안된다.
      * 답변: 같은 클래스 내에서 안에 소속된 타입이나 타입들을 서로에 대해 파악은 가능한 상태이다. 아무리 그게 private로 걸려있어도. 단, 그 타입과 메서드 내부의 변수를 확인하는 것은 안되는데, 그게 private라는 
      * 상자로 한꺼풀 더 감싸져 있기 때문이다. 따라서 해당 변수를 같은 클래스 내에서 다른 타입이나 메서드가 호출할려면 그게 public이 걸려 있어야하는 것이다.
+     *public은 접근제한자(=액세스한정자)라고 하며, 구조체 내에 전역적으로 선언된 변수를 멤버 변수라고 한다.
+     * 
     */
 
     static void Main()
@@ -38,7 +40,7 @@ class Progrom
 
     private struct studentInfo
     {
-        public string Name;
+        public string Name; 
         public int BirthYear;
         public float EyeSight;
 
